@@ -9,5 +9,6 @@ h2 {
   margin-bottom: 50px;
 }
 
-p {
+#ruby, #javaScript, #python, #swift {
+  display:none;
 }
