@@ -8,50 +8,47 @@ $(document).ready(function(){
     const weather = $("#weather").val()
     $("#content div").hide();
 
+    //If you do not enter a name, the program will call you user in the generated response.
+    //If you do enter a name, the program will call you by your entered name in the generated response. 
+    //In either case, if you do not answer at least one of the questions, the program will give you an alert asking you to go back and answer one. 
     if(name){
       if (color || activity || animal || food || weather){
+        $(".user").text(name);
         if (color === "blue" && activity ==="1") {
           $("#ruby").show();
-          $(".user").text(name);
         }
         else if (color === "yellow" || food === "3") {
           $("#javaScript").show();
-          $(".user").text(name);
         }
         else if (animal === "4") {
           $("#python").show();
-          $(".user").text(name);
         }
         else {
           $("#swift").show();
-          $(".user").text(name);
         }
       }
       else {
-        alert("you must 1 answer at least one of the questions, please try again");
+        alert("you must answer at least one of the questions, please try again");
       }
     }
     else {
       if (color || activity || animal || food || weather){
+        $(".user").text("User, you didn't enter a name so we will call you User");
         if (color === "blue" && activity ==="1") {
           $("#ruby").show();
-          $(".user").text("User, you didn't enter a name so we will call you User");
         }
         else if (color === "yellow" || food === "3") {
           $("#javaScript").show();
-          $(".user").text("User, you didn't enter a name so we will call you User");
         }
         else if (animal === "4") {
           $("#python").show();
-          $(".user").text("User, you didn't enter a name so we will call you User");
         }
         else {
           $("#swift").show();
-          $(".user").text("User, you didn't enter a name so we will call you User");
         }
       }
       else {
-        alert("you must 2 answer at least one of the questions, please try again");
+        alert("you must answer at least one of the questions, please try again");
       }
     }
     event.preventDefault();
