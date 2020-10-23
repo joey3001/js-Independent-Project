@@ -48,7 +48,7 @@ This application will take user input through a form and generate a set of respo
 2. Click on the green button labeled "code" towards the right side of the page's center. In the drop-down menu that opens, click on the button labeled "Download Zip."
 3. Once your download is complete, open the zipped file. Click on the button labeled "Extract All" at the top of your file explorer. 
 4. Choose the location in which you want to extract the files, and navigate to that location once this process is complete. 
-5. Enter the "first-friday-project" directory and click on the index.html file to launch the project in your default web browser. 
+5. Enter the directory and click on the index.html file to launch the project in your default web browser. 
 
 ## Known Bugs
 
