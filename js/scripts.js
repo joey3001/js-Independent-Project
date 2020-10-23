@@ -6,9 +6,8 @@ $(document).ready(function(){
     const animal = $("#animal").val()
     const food = $("#food").val()
     const weather = $("#weather").val()
-
-    event.preventDefault();
-
+    $("#content div").hide();
+    
     if (color || activity || animal || food || weather){
       if (color === "blue" && activity ==="1") {
         $("#ruby").show();
@@ -26,5 +25,6 @@ $(document).ready(function(){
     else {
       alert("you must answer at least one of the questions, please try again");
     }
+    event.preventDefault();
   })
 })
