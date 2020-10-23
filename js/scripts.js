@@ -9,8 +9,21 @@ $(document).ready(function(){
     alert(name);
     alert(color);
     alert(activity);
-    alert(animal)
-    alert(food)
-    alert(weather)
+    alert(animal);
+    alert(food);
+    alert(weather);
+
+    if (color === "blue" && activity ==="1") {
+      alert("this if statement is functional");
+    }
+    else if (color === "yellow" || food === "3") {
+      alert("your color was yellow or your favorite food was French Fries");
+    }
+    else if (animal === "4") {
+      alert("your color and your activity were not simultaneously blue & singing, your color was not yellow, your favorite food was not french fries, and your favorite animal was a gezelle");
+    }
+    else {
+      alert("you didnt select any of my things i programmed");
+    }
   })
 })
