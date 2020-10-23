@@ -8,3 +8,7 @@ h2 {
   margin-top: 23px; 
   margin-bottom: 50px;
 }
+
+#ruby, #python, #swift, #javaScript {
+  display:none; 
+}
