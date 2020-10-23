@@ -1,5 +1,5 @@
 body {
-  background-color: mintcream;
+  background-color: rgb(191, 240, 215);
 }
 
 h2 {
@@ -9,6 +9,41 @@ h2 {
   margin-bottom: 50px;
 }
 
+#name {
+  margin-bottom:9px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.smallLineBreak {
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input {
+  margin-bottom: 3px;
+}
+
+#activity{
+  margin-top: 7px;
+}
+
+select{
+  margin-bottom: 12px;
+}
+
+.btn{
+  background-color: rgba(245, 240, 229, 0.959);
+  font-weight: bold;
+  border: solid black;
+  border-width: 2px;
+}
+
 #ruby, #python, #swift, #javaScript {
   display:none; 
 }
+
+
+
