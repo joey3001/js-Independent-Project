@@ -8,73 +8,75 @@
   <title>Programmer Survey</title>
 </head>
 <body>
-  <h2>Interested in programming? Take this survey to find out which langage is right for you!</h2>
-  <p> To find out which language is a good fit for you, we need you to answer some questions:</p>
-  <form id="languageForm">
-    <div class ="form-group">
-      <label for="name">Please tell us your name</label>
-      <input id="name" class="form-control" type="text">
-      <div class="radio">
-        <label>
-          <input type="radio" name="color" value="blue">
-          blue
-        </label>
+  <div class="container">
+    <h2>Interested in programming? Take this survey to find out which langage is right for you!</h2>
+    <p> To find out which language is a good fit for you, we need you to answer some questions:</p>
+    <form id="languageForm">
+      <div class ="form-group">
+        <label for="name">Please tell us your name</label>
+        <input id="name" class="form-control" type="text">
+        <div class="radio">
+          <label>
+            <input type="radio" name="color" value="blue">
+            blue
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="color" value="green">
+            green
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="color" value="yellow">
+            yellow
+          </label>
+        </div>
+        <select class="form-control" id="activity">
+          <option value="">Select your favorite activity</option>
+          <option value="1">Singing</option>
+          <option value="2">dancing</option>
+          <option value="3">hiking</option>
+          <option value="4">reading</option>
+        </select>
+        <select class="form-control" id="animal">
+          <option value="">Select your favorite animal</option>
+          <option value="1">Bear</option>
+          <option value="2">Elephant</option>
+          <option value="3">Frog</option>
+          <option value="4">Gazelle</option>
+        </select>
+        <select class="form-control" id="food">
+          <option value="">Select your favorite food</option>
+          <option value="1">Cheese</option>
+          <option value="2">Fried Chicken</option>
+          <option value="3">French Fries</option>
+          <option value="4">Beets</option>
+        </select>
+        <select class="form-control" id="weather">
+          <option value="">Select your favorite weather</option>
+          <option value="1">Sunny</option>
+          <option value="2">Stormy</option>
+          <option value="3">A Light Rain</option>
+          <option value="4">Foggy</option>
+        </select>
+        <button type="submit" class="btn">Show me which language I should learn!</button>
       </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="color" value="green">
-          green
-        </label>
+    </form>
+    <div id="content">
+      <div id="ruby">
+        <p>Hey <span class="user"></span>, based on your answers you should definitely check out <strong>ruby!</strong></p>
       </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="color" value="yellow">
-          yellow
-        </label>
+      <div id="javaScript">
+        <p>Hey <span class="user"></span>, based on your answers you should definitely check out <strong>javaScript!</strong></p>
       </div>
-      <select class="form-control" id="activity">
-        <option value="">Select your favorite activity</option>
-        <option value="1">Singing</option>
-        <option value="2">dancing</option>
-        <option value="3">hiking</option>
-        <option value="4">reading</option>
-      </select>
-      <select class="form-control" id="animal">
-        <option value="">Select your favorite animal</option>
-        <option value="1">Bear</option>
-        <option value="2">Elephant</option>
-        <option value="3">Frog</option>
-        <option value="4">Gazelle</option>
-      </select>
-      <select class="form-control" id="food">
-        <option value="">Select your favorite food</option>
-        <option value="1">Cheese</option>
-        <option value="2">Fried Chicken</option>
-        <option value="3">French Fries</option>
-        <option value="4">Beets</option>
-      </select>
-      <select class="form-control" id="weather">
-        <option value="">Select your favorite weather</option>
-        <option value="1">Sunny</option>
-        <option value="2">Stormy</option>
-        <option value="3">A Light Rain</option>
-        <option value="4">Foggy</option>
-      </select>
-      <button type="submit" class="btn">Show me which language I should learn!</button>
-    </div>
-  </form>
-  <div id="content">
-    <div id="ruby">
-      <p>ruby</p>
-    </div>
-    <div id="javaScript">
-      <p>javaScript</p>
-    </div>
-    <div id="python">
-      <p>python</p>
-    </div>
-    <div id="swift">
-      <p>swift</p>
+      <div id="python">
+        <p>Hey <span class="user"></span>, based on your answers you should definitely check out <strong>python!</strong></p>
+      </div>
+      <div id="swift">
+        <p>Hey<span class="user"></span>, based on your answers you should definitely check out <strong>swift</strong></p>
+      </div>
     </div>
   </div>
 </body>

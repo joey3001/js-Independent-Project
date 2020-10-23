@@ -7,6 +7,7 @@ $(document).ready(function(){
     const food = $("#food").val()
     const weather = $("#weather").val()
     $("#content div").hide();
+    $(".user").text(name);
     
     if (color || activity || animal || food || weather){
       if (color === "blue" && activity ==="1") {
