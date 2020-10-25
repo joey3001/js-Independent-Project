@@ -18,7 +18,7 @@ This application will take user input through a form and generate a set of respo
     - To clone the repository from Github using git commands in the terminal, you need a terminal program & Git. For Windows OS, I recommend the Git Bash terminal program. Installing Git Bash will also install Git. 
 3. VSCode (Or another code editor)
     - To view/edit this code, you need a code editor. I recommend VSCode. 
-4. Detailed instructions to install Git Bash & VSCode can be found in the Setup/Installation Requirements section in the README for [this repo.](https://github.com/joey3001/first-friday-project)
+4. Detailed instructions to install Git Bash & VSCode can be found in the Setup/Installation Requirements section of the README for [this repo.](https://github.com/joey3001/first-friday-project)
 
 #### To view this website online please use the following GH-Pages link: 
 
