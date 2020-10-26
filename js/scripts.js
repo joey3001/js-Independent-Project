@@ -7,7 +7,7 @@ $(document).ready(function(){
     const food = $("#food").val()
     const weather = $("#weather").val()
     $("#content div").hide();
-    //If you do not answer at least one of the questions, the program will give you an alert asking you to go back and answer one. 
+    //In the branching if statement below, if you don't answer at least one of the questions, you'll get an alert asking you to try again.  
     //If you do enter a name, the program will call you by your entered name in the generated response. 
     //If you do not enter a name, the program will call you 'User' in the generated response. 
     if (color || activity || animal || food || weather){
