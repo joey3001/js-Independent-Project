@@ -46,6 +46,10 @@ select{
   display:none; 
 }
 
+#content {
+  margin-top: 20px;
+}
+
 img {
   margin: auto; 
   display: block; 
